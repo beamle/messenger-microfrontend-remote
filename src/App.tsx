@@ -10,7 +10,6 @@ function App() {
           Remote App module - federation (CRA)
         </p>
         <Messenger/>
-          {/*<WeatherWidget/>*/}
       </header>
     </div>
   );

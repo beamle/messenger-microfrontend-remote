@@ -12,6 +12,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "axios": "1.6.0",
+    "clsx": "^2.1.1",
     "react": "^18.2.0",
     "react-dnd": "^16.0.1",
     "react-dom": "^18.2.0",
@@ -23,6 +24,7 @@
     "start": "rescripts start",
     "build": "rescripts build",
     "test": "rescripts test",
+    "lint": "eslint --fix src/**/*.{tsx,ts,jsx,js} --no-error-on-unmatched-pattern && stylelint --fix src/{,*/}*.{scss,css} --allow-empty-input",
     "eject": "rescripts eject"
   },
   "eslintConfig": {
@@ -44,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "^7.1.0"
+    "@craco/craco": "^7.1.0",
+    "sass": "^1.64.0"
   }
 }

@@ -1,0 +1,48 @@
+.messenger {
+    display: flex;
+  height: 80vh;
+  border: 1px solid var(--color-dark-300);
+
+  .usersContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-dark-500);
+
+    .search {
+      padding: 1rem 0.75rem;
+      background-color: var(--color-dark-500);
+      border-right: 1px solid var(--color-dark-300);
+      border-radius: 2px 0 0 0;
+    }
+    .usersListContainer {
+      .usersList {
+        border-radius: 0;
+        border: none;
+        overflow: hidden;
+      }
+    }
+  }
+  .chatContainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    .myUserBox {
+        display: flex;
+        justify-content: flex-end;
+        padding: 1rem 0.75rem;
+        background-color: var(--color-dark-500);
+        border-bottom: 1px solid var(--color-dark-300);;
+        border-radius: 0 0 2px 0;
+
+    }
+  }
+}
+
+.usersListCard {
+    display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  border: 2px solid red;
+}
+
